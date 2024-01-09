@@ -13,7 +13,7 @@ module.exports = {
       NODE_ENV: "local"
    },
    env_test:{
-      NODE_ENV: "test"
+      NODE_ENV:"test"
    }
   }],
 
