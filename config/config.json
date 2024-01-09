@@ -15,7 +15,7 @@
   },
   "production": {
     "username": "root",
-    "password": null,
+    "password": "@Fender1996",
     "database": "project1_prod",
     "host": "103.181.183.5",
     "dialect": "mysql",
