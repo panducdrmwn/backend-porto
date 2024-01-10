@@ -12,9 +12,7 @@ var app = express();
 
 var nodeEnv = process.env.NODE_ENV;
 var envPath = path.resolve('.env');
-if (nodeEnv === 'development') {
- 
-} else if (nodeEnv === 'test') {
+ if (nodeEnv === 'local') {
   const corsOptions = {
     origin: '*',
     methods:'*',
