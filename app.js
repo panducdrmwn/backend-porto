@@ -12,18 +12,19 @@ var app = express();
 
 var nodeEnv = process.env.NODE_ENV;
 var envPath = path.resolve('.env');
- if (nodeEnv === 'local') {
+ 
   const corsOptions = {
     origin: '*',
     methods:'*',
     allowedHeaders: ['Content-Type', 'Authorization','token'],
     
   };
+
   app.use(
     cors(corsOptions)
   );
   
-}
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
