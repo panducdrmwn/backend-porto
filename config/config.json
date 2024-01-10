@@ -14,7 +14,7 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
+    "username": "pandu",
     "password": "@Fender1996",
     "database": "project1_prod",
     "host": "103.181.183.5",
