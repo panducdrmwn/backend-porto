@@ -23,7 +23,7 @@ module.exports = {
                 return res.json({
                     error: 'please enter a username'
                 })
-            }
+            } else if (await db.user.findOne(req.body.username))
             if(!req.body.password || req.body.password.length < 8){
                 return res.json({
                     error: 'please enter a password longer than 8 characters'
